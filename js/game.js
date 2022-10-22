@@ -106,7 +106,7 @@ function handleInput(dt) {
   } else {
     player.noRun();
   }
-  if (input.isDown('BUTTON_X')) {
+  if (input.isDown('BUTTON_CROSS')) {
     player.jump();
   } else {
     //we need this to handle the timing for how long you hold it
