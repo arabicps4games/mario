@@ -106,7 +106,7 @@ function handleInput(dt) {
   } else {
     player.noRun();
   }
-  if (input.isDown('JUMP')) {
+  if (input.isDown('UP')) {
     player.jump();
   } else {
     //we need this to handle the timing for how long you hold it
@@ -119,7 +119,7 @@ function handleInput(dt) {
     player.noCrouch();
   }
 
-  if (input.isDown('LEFT')) { // 'd' or left arrow
+    if (input.isDown('LEFT')) { // 'd' or left arrow
     player.moveLeft();
   }
   else if (input.isDown('RIGHT')) { // 'k' or right arrow
