@@ -106,7 +106,7 @@ function handleInput(dt) {
   } else {
     player.noRun();
   }
-  if (input.isDown('gamepad.buttons[0]')) {
+  if (input.isDown('UP')) {
     player.jump();
   } else {
     //we need this to handle the timing for how long you hold it
