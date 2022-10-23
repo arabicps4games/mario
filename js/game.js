@@ -106,14 +106,14 @@ function handleInput(dt) {
   } else {
     player.noRun();
   }
-  if (input.isDown('UP')) {
+  if (input.isDown('DOWN')) {
     player.jump();
   } else {
     //we need this to handle the timing for how long you hold it
     player.noJump();
   }
 
-  if (input.isDown('DOWN')) {
+  if (input.isDown('UP')) {
     player.crouch();
   } else {
     player.noCrouch();
